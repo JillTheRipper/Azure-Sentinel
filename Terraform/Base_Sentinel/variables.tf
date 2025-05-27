@@ -13,3 +13,9 @@ variable "workspace_name" {
   description = "Log Analytics Workspace Name"
   type        = string
 }
+
+
+variable "subscription_id" {
+  description = "Azure Subscription ID"
+  type        = string
+}
